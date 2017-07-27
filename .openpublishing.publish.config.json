@@ -8,7 +8,6 @@
       "build_source_folder": "fenxu_docset__20160417_1",
       "build_output_subfolder": "fenxu_docset__20160417_1",
       "locale": "zh-cn",
-      "version": 0,
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
@@ -16,14 +15,14 @@
         "RestApi": "Content"
       },
       "build_entry_point": "docs",
-      "template_folder": "_themes"
+      "template_folder": "_themes",
+      "version": 0
     },
     {
       "docset_name": "fenxu_docset__20160417_2",
       "build_source_folder": "fenxu_docset__20160417_2",
       "build_output_subfolder": "fenxu_docset__20160417_2",
       "locale": "zh-cn",
-      "version": 0,
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
@@ -31,10 +30,13 @@
         "RestApi": "Content"
       },
       "build_entry_point": "docs",
-      "template_folder": "_themes"
+      "template_folder": "_themes",
+      "version": 0
     }
   ],
   "notification_subscribers": [],
+  "branches_to_filter": [],
+  "continue_with_document_error": true,
   "skip_source_output_uploading": false,
   "dependent_repositories": [
     {
@@ -44,11 +46,5 @@
       "branch_mapping": {}
     }
   ],
-  "need_generate_intellisense": false,
-  "package_version": null,
-  "report_severity_level": null,
-  "branches_to_filter": [],
-  "git_repository_url_open_to_public_contributors": null,
-  "git_repository_branch_open_to_public_contributors": null,
-  "skip_source_output_uploading": false
+  "need_generate_pdf_url_template": false
 }
